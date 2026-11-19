@@ -1,0 +1,211 @@
+{
+  "brand": {
+    "name": "TinyTab",
+    "tagline": "A lightweight window switcher for macOS"
+  },
+  "meta": {
+    "description": "Switch between windows with Cmd + Tab, including full-screen windows and other desktops. Jump with a single key. Connects only to activate, refresh, or deactivate a license, and collects no data."
+  },
+  "header": {
+    "home": "Home",
+    "pages": "Pages",
+    "toLight": "Switch to light",
+    "toDark": "Switch to dark"
+  },
+  "footer": {
+    "language": "Language",
+    "promise": "Collects no data · Connects only to activate, refresh, or deactivate a license",
+    "contact": "Contact"
+  },
+  "common": {
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyFailed": "Couldn't copy. Select the text and copy it by hand."
+  },
+  "pages": {
+    "purchase": {
+      "title": "Buy",
+      "summary": "One-time purchase: pay by QR code, then submit the email used for the purchase and the transaction number. Activate with a verification code once approved."
+    },
+    "faq": {
+      "title": "FAQ",
+      "summary": "Reinstalling, new Macs, network and privacy, and the first-launch warning."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "summary": "TinyTab connects only to activate, refresh, or deactivate a license, and collects no usage data."
+    }
+  },
+  "home": {
+    "eyebrow": "macOS 14+ · Lightweight · One-time purchase",
+    "headline1": "Cmd + Tab,",
+    "headline2": "straight to any window.",
+    "intro": "TinyTab switches window by window, across every display, desktop and full-screen space. Each window gets a letter: hold Cmd and press it to jump. Small and quiet, it focuses on doing one thing well: switching windows.",
+    "ctaDownload": "Download",
+    "ctaPurchase": "Buy",
+    "previewLabel": "Illustration of the TinyTab switcher",
+    "featuresTitle": "One thing, done well",
+    "features": {
+      "windows": {
+        "title": "Window-level switching",
+        "body": "One row per window, most recently used first. Full-screen apps and windows on other desktops are one keystroke away."
+      },
+      "hints": {
+        "title": "Single-key jumps",
+        "body": "Each window keeps its letter while it's open. Hold Cmd and press it to switch; Dvorak and other layouts work too."
+      },
+      "light": {
+        "title": "Light and focused",
+        "body": "No search, groups or previews. It lives in the menu bar, never steals focus, and switches when you release Cmd."
+      },
+      "offline": {
+        "title": "Quiet by default",
+        "body": "It connects to the license center only to activate, refresh, or deactivate a license. Otherwise it stays offline and collects no data."
+      }
+    },
+    "preview": {
+      "rows": {
+        "xcode": {
+          "app": "Xcode",
+          "title": "AppDelegate.swift"
+        },
+        "safari": {
+          "app": "Safari",
+          "title": "TinyTab — GitHub"
+        },
+        "terminal": {
+          "app": "Terminal",
+          "title": "~/Projects — zsh"
+        },
+        "notes": {
+          "app": "Notes",
+          "title": "Release checklist"
+        },
+        "mail": {
+          "app": "Mail",
+          "title": "Inbox"
+        }
+      },
+      "minimized": "Minimized",
+      "hold": "Hold"
+    }
+  },
+  "purchase": {
+    "price": "One-time purchase, {{usd}} / {{cny}}, yours forever",
+    "download": "Download TinyTab",
+    "stepsTitle": "How to buy",
+    "steps": {
+      "download": "Download and install TinyTab (macOS 14 or later).",
+      "pay": "Scan one of the payment codes below. For USDT, you can also copy the address and send to it.",
+      "submit": "Enter the email used for the purchase (twice) and the transaction number below, then submit.",
+      "activate": "Open “Activate TinyTab…” from the TinyTab menu bar icon, enter this email, click Send Code, and activate with the six-digit code you receive.",
+      "received": "Once approved, you'll get an email notification."
+    },
+    "methodsTitle": "Payment codes",
+    "methodsHint": "The Alipay and WeChat Pay codes already include the amount, {{cny}}. For USDT, send {{usdt}} on the same network as the code; funds sent on the wrong network can't be recovered.",
+    "methods": {
+      "alipay": "Alipay",
+      "wechat": "WeChat Pay",
+      "usdtTrc20": "USDT (TRC20)",
+      "usdtErc20": "USDT (ERC20)"
+    },
+    "copyAddress": "Copy address",
+    "addressCopied": "Address copied",
+    "zoom": "Enlarge the {{method}} code",
+    "zoomHint": "Click a code to show it on its own, larger, so your phone doesn't pick up the one next to it.",
+    "scan": {
+      "alipay": "Open Scan in Alipay and pay {{cny}}.",
+      "wechat": "Open Scan in WeChat and pay {{cny}}.",
+      "usdtTrc20": "Scan with your wallet or copy the address, and send {{usdt}} on the Tron (TRC20) network.",
+      "usdtErc20": "Scan with your wallet or copy the address, and send {{usdt}} on the Ethereum (ERC20) network."
+    },
+    "close": "Close",
+    "order": {
+      "title": "Submit your payment",
+      "description": "Fill this in after paying. Once approved, a license is opened for this email.",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "emailHint": "Use an address that can receive mail: the activation code is sent there.",
+      "confirmEmail": "Enter the email again",
+      "confirmEmailHint": "Both entries must match.",
+      "method": "Payment method",
+      "transactionNumber": "Transaction number",
+      "transactionNumberPlaceholder": "Copy it from the payment details",
+      "transactionNumberHint": {
+        "alipay": "In Alipay, open this payment under “Bills” and copy the order number (订单号).",
+        "wechat": "In WeChat, open this payment under Me > Services > Wallet > Bills and copy the transaction number (交易单号 or 转账单号).",
+        "usdtTrc20": "In the wallet or exchange you paid from, open this transfer in your withdrawal history and copy the transaction hash (TxID).",
+        "usdtErc20": "In the wallet or exchange you paid from, open this transfer in your withdrawal history and copy the transaction hash (TxID), which starts with 0x."
+      },
+      "submit": "Submit",
+      "submitting": "Submitting…",
+      "submitted": "Submitted. Once approved, you'll get an email notification. Then enter this email in TinyTab's “Activate TinyTab…” window to get a verification code and activate.",
+      "errors": {
+        "invalidEmail": "That email address isn't valid.",
+        "emailMismatch": "The two email addresses don't match.",
+        "invalidTransactionNumber": "That transaction number isn't valid: it has 6 to 66 letters, digits, “-” or “_”.",
+        "humanVerificationFailed": "The human check didn't pass. Complete it again and resubmit.",
+        "offeringNotOnSale": "Purchases aren't open right now. Try again later or contact the author.",
+        "paymentMethodUnavailable": "This payment method isn't available. Please choose another one.",
+        "paymentAlreadyProcessed": "This payment has already been processed. Once approved, activate in TinyTab with the purchase email.",
+        "invalidRequest": "The submission didn't pass the checks. Check the email and the transaction number.",
+        "unavailable": "The service is temporarily unavailable. Please try again later.",
+        "originNotAllowed": "The site can't submit orders right now. Please contact the author ({{email}}).",
+        "rateLimited": "Too many submissions. Please try again later."
+      },
+      "turnstileFailed": "The human check didn't load. Refresh the page and try again. If it still fails, use “Contact” at the bottom of the page to email the author."
+    }
+  },
+  "faq": {
+    "items": {
+      "notOpened": {
+        "question": "macOS says “Not Opened” and Apple could not verify it is free of malware when I open the download or TinyTab?",
+        "answer": "TinyTab isn't notarized by Apple, and macOS shows this for every such download; it doesn't mean malware was found. You see it twice, when you double-click TinyTab.dmg and the first time you open TinyTab, and both are handled the same way. Click Done to close the alert (not Move to Trash). Open System Settings > Privacy & Security, find the message under Security, click Open Anyway and enter your password, then open it again. It won’t appear after that."
+      },
+      "reinstall": {
+        "question": "Do I need to buy again after reinstalling macOS or TinyTab?",
+        "answer": "No. Licenses belong to an email address; after reinstalling, get a verification code with the email used for the purchase and activate again."
+      },
+      "newMac": {
+        "question": "What if I get a new Mac or the logic board is replaced?",
+        "answer": "Activate on the new Mac with the email used for the purchase. At the activation limit, the new activation replaces the one that hasn't refreshed for the longest time."
+      },
+      "network": {
+        "question": "Does TinyTab connect to the network?",
+        "answer": "Not normally. It connects to the license center only to activate, refresh, or deactivate a license. Activation submits the email address, which is used only to identify the license owner and to send verification codes and order notifications. The license center stores the email, device model, and OS version, and collects no usage data. Everyday window switching is unaffected."
+      },
+      "permission": {
+        "question": "Why does TinyTab need Accessibility access?",
+        "answer": "Intercepting Cmd + Tab and switching other apps' windows both require Accessibility access. It takes effect without restarting TinyTab."
+      }
+    }
+  },
+  "privacy": {
+    "sections": {
+      "network": {
+        "title": "Network",
+        "body": "TinyTab connects to the license center only to activate or refresh a license, or to deactivate this Mac. Everyday window switching stays offline. If the license center can't be reached, an activated license keeps working offline; once the grace period ends, the app asks you to go online and confirm."
+      },
+      "email": {
+        "title": "Email",
+        "body": "Activation submits the purchase email. The email is used only to identify the license owner and to send verification codes and order notifications. The email and transaction number submitted on the purchase page are used only to check the payment."
+      },
+      "stored": {
+        "title": "What the license center stores",
+        "body": "The license center stores the email, device model, and OS version (for example, MacBookPro18,3 · macOS 14.5) to identify activated devices. It never reads the computer name."
+      },
+      "usage": {
+        "title": "No usage data",
+        "body": "TinyTab collects no usage data. The site uses no cookies, localStorage, sessionStorage, or IndexedDB; a manually chosen interface language is kept only in the ?lang= URL parameter."
+      },
+      "analytics": {
+        "title": "Site analytics",
+        "body": "The site uses Cloudflare Web Analytics to count page views. It sets no cookies and collects no personal information."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "For privacy questions, email {{email}}."
+      }
+    }
+  }
+}

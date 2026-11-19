@@ -1,0 +1,6 @@
+# pnpm 11 keeps its settings in this file; it declares no workspace packages.
+# Vite builds with esbuild, whose install script downloads the native binary. node-pty is a transitive dependency
+# that needs no install script; everything unlisted stays blocked.
+allowBuilds:
+  esbuild: true
+  node-pty: false

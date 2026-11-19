@@ -1,0 +1,211 @@
+{
+  "brand": {
+    "name": "TinyTab",
+    "tagline": "Un sélecteur de fenêtres léger pour macOS"
+  },
+  "meta": {
+    "description": "Basculez entre les fenêtres avec Cmd + Tab, y compris en plein écran et sur d'autres bureaux. Accès direct avec une seule touche. L'application ne se connecte que pour activer, actualiser ou désactiver une licence, et ne collecte aucune donnée."
+  },
+  "header": {
+    "home": "Accueil",
+    "pages": "Pages",
+    "toLight": "Passer au thème clair",
+    "toDark": "Passer au thème sombre"
+  },
+  "footer": {
+    "language": "Langue",
+    "promise": "Ne collecte aucune donnée · Se connecte uniquement pour activer, actualiser ou désactiver une licence",
+    "contact": "Contacter l'auteur"
+  },
+  "common": {
+    "copy": "Copier",
+    "copied": "Copié",
+    "copyFailed": "Échec de la copie. Veuillez sélectionner et copier manuellement."
+  },
+  "pages": {
+    "purchase": {
+      "title": "Acheter",
+      "summary": "Achat unique : payez par QR code, puis soumettez l'adresse e-mail utilisée pour l'achat et le numéro de transaction. Activez avec un code de vérification après approbation."
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "summary": "Réinstallation, nouveau Mac, réseau et confidentialité, et avertissement au premier lancement."
+    },
+    "privacy": {
+      "title": "Confidentialité",
+      "summary": "TinyTab ne se connecte que pour activer, actualiser ou désactiver une licence, et ne collecte aucune donnée d'usage."
+    }
+  },
+  "home": {
+    "eyebrow": "macOS 14+ · Léger · Achat unique",
+    "headline1": "Cmd + Tab,",
+    "headline2": "accès direct à chaque fenêtre.",
+    "intro": "TinyTab bascule fenêtre par fenêtre, sur tous les écrans, bureaux et espaces plein écran. Chaque fenêtre se voit attribuer une lettre : maintenez Cmd et appuyez sur la touche correspondante pour y accéder. Léger, silencieux et entièrement dédié à une seule tâche : changer de fenêtre efficacement.",
+    "ctaDownload": "Télécharger",
+    "ctaPurchase": "Acheter",
+    "previewLabel": "Aperçu du sélecteur TinyTab",
+    "featuresTitle": "Faire une seule chose, et la faire bien",
+    "features": {
+      "windows": {
+        "title": "Basculement par fenêtre",
+        "body": "Une ligne par fenêtre, classée par utilisation récente. Les applications en plein écran et les fenêtres sur d'autres bureaux sont accessibles en un instant."
+      },
+      "hints": {
+        "title": "Saut avec une seule touche",
+        "body": "Chaque fenêtre conserve sa lettre tant qu'elle est ouverte. Maintenez Cmd et appuyez sur la touche ; compatible avec les dispositions Dvorak et autres."
+      },
+      "light": {
+        "title": "Léger et épuré",
+        "body": "Pas de recherche, de groupes ou d'aperçus. Réside dans la barre des menus, ne vole jamais le focus et bascule dès que vous relâchez Cmd."
+      },
+      "offline": {
+        "title": "Hors ligne par défaut",
+        "body": "L'application ne se connecte au centre de licences que pour activer, actualiser ou désactiver une licence. Sinon, elle reste hors ligne et ne collecte aucune donnée."
+      }
+    },
+    "preview": {
+      "rows": {
+        "xcode": {
+          "app": "Xcode",
+          "title": "AppDelegate.swift"
+        },
+        "safari": {
+          "app": "Safari",
+          "title": "TinyTab — GitHub"
+        },
+        "terminal": {
+          "app": "Terminal",
+          "title": "~/Projects — zsh"
+        },
+        "notes": {
+          "app": "Notes",
+          "title": "Liste de publication"
+        },
+        "mail": {
+          "app": "Mail",
+          "title": "Boîte de réception"
+        }
+      },
+      "minimized": "Réduite",
+      "hold": "Maintenir"
+    }
+  },
+  "purchase": {
+    "price": "Achat unique, {{usd}} / {{cny}}, utilisable à vie",
+    "download": "Télécharger TinyTab",
+    "stepsTitle": "Comment acheter",
+    "steps": {
+      "download": "Téléchargez et installez TinyTab (macOS 14 ou version ultérieure).",
+      "pay": "Scannez l'un des QR codes de paiement ci-dessous. Pour l'USDT, vous pouvez aussi copier l'adresse et y envoyer les fonds.",
+      "submit": "Renseignez ci-dessous l'adresse e-mail utilisée pour l'achat (deux fois) et le numéro de transaction, puis validez.",
+      "activate": "Ouvrez « Activate TinyTab… » depuis l'icône de TinyTab dans la barre des menus, saisissez cette adresse, cliquez sur « Send Code » et activez avec le code à six chiffres reçu.",
+      "received": "Une fois la commande approuvée, vous recevrez un e-mail de notification."
+    },
+    "methodsTitle": "Codes de paiement",
+    "methodsHint": "Les codes Alipay et WeChat Pay incluent déjà le montant, {{cny}}. Pour l'USDT, envoyez {{usdt}} sur le même réseau que le code ; les fonds envoyés sur un autre réseau sont irrécupérables.",
+    "methods": {
+      "alipay": "Alipay",
+      "wechat": "WeChat Pay",
+      "usdtTrc20": "USDT (TRC20)",
+      "usdtErc20": "USDT (ERC20)"
+    },
+    "copyAddress": "Copier l'adresse",
+    "addressCopied": "Adresse copiée",
+    "zoom": "Agrandir le code {{method}}",
+    "zoomHint": "Cliquez sur un code pour l'afficher seul et en plus grand, afin que votre téléphone ne lise pas celui d'à côté.",
+    "scan": {
+      "alipay": "Ouvrez « 扫一扫 » (Scanner) dans Alipay et payez {{cny}}.",
+      "wechat": "Ouvrez « 扫一扫 » (Scanner) dans WeChat et payez {{cny}}.",
+      "usdtTrc20": "Scannez avec votre portefeuille ou copiez l'adresse, puis envoyez {{usdt}} sur le réseau Tron (TRC20).",
+      "usdtErc20": "Scannez avec votre portefeuille ou copiez l'adresse, puis envoyez {{usdt}} sur le réseau Ethereum (ERC20)."
+    },
+    "close": "Fermer",
+    "order": {
+      "title": "Soumettre les informations de paiement",
+      "description": "Remplissez ce formulaire après avoir payé. Une fois approuvée, une licence est ouverte pour cette adresse e-mail.",
+      "email": "E-mail",
+      "emailPlaceholder": "you@example.com",
+      "emailHint": "Utilisez une adresse capable de recevoir des e-mails : le code d'activation y sera envoyé.",
+      "confirmEmail": "Saisissez à nouveau l'adresse e-mail",
+      "confirmEmailHint": "Les deux saisies doivent être identiques.",
+      "method": "Moyen de paiement",
+      "transactionNumber": "Numéro de transaction",
+      "transactionNumberPlaceholder": "Copiez-le depuis les détails du paiement",
+      "transactionNumberHint": {
+        "alipay": "Dans Alipay, ouvrez ce paiement sous « 账单 » (Factures) et copiez le « 订单号 » (numéro de commande).",
+        "wechat": "Dans WeChat, ouvrez ce paiement sous « 我 > 服务 > 钱包 > 账单 » et copiez le « 交易单号 » ou « 转账单号 ».",
+        "usdtTrc20": "Dans le portefeuille ou la plateforme d'échange utilisé, ouvrez ce transfert dans l'historique des retraits et copiez le hash de transaction (TxID).",
+        "usdtErc20": "Dans le portefeuille ou la plateforme d'échange utilisé, ouvrez ce transfert dans l'historique des retraits et copiez le hash de transaction (TxID), qui commence par 0x."
+      },
+      "submit": "Envoyer",
+      "submitting": "Envoi en cours…",
+      "submitted": "Envoyé. Une fois la commande approuvée, vous recevrez un e-mail de notification. Saisissez ensuite cette adresse dans la fenêtre « Activate TinyTab… » de TinyTab pour recevoir un code et activer.",
+      "errors": {
+        "invalidEmail": "Adresse e-mail invalide.",
+        "emailMismatch": "Les deux adresses e-mail ne correspondent pas.",
+        "invalidTransactionNumber": "Numéro de transaction invalide : il doit comporter de 6 à 66 caractères (lettres, chiffres, « - » ou « _ »).",
+        "humanVerificationFailed": "La vérification de sécurité a échoué. Veuillez la compléter à nouveau puis renvoyer.",
+        "offeringNotOnSale": "Les achats ne sont pas ouverts pour le moment. Réessayez plus tard ou contactez l'auteur.",
+        "paymentMethodUnavailable": "Ce moyen de paiement n'est pas disponible. Veuillez en choisir un autre.",
+        "paymentAlreadyProcessed": "Ce paiement a déjà été traité. Une fois approuvé, activez dans TinyTab avec l'adresse e-mail d'achat.",
+        "invalidRequest": "L'envoi n'a pas passé les vérifications. Vérifiez l'adresse e-mail et le numéro de transaction.",
+        "unavailable": "Le service est temporairement indisponible. Veuillez réessayer plus tard.",
+        "originNotAllowed": "Le site ne peut pas envoyer de commande pour le moment. Contactez l'auteur ({{email}}).",
+        "rateLimited": "Trop d'envois. Veuillez réessayer plus tard."
+      },
+      "turnstileFailed": "Le contrôle de sécurité n'a pas pu se charger. Actualisez la page et réessayez. Si le problème persiste, utilisez « Contacter l'auteur » en bas de page pour écrire à l'auteur."
+    }
+  },
+  "faq": {
+    "items": {
+      "notOpened": {
+        "question": "macOS affiche « n’a pas été ouvert » et Apple ne peut pas vérifier l’absence de logiciel malveillant à l’ouverture du téléchargement ou de TinyTab ?",
+        "answer": "TinyTab n’est pas notarié par Apple, et macOS affiche ce message pour tous les téléchargements de ce type ; aucun logiciel malveillant n’a été détecté. Il apparaît deux fois : au double-clic sur TinyTab.dmg et à la première ouverture de TinyTab ; la procédure est la même. Cliquez sur « Terminé », pas sur « Placer dans la corbeille ». Ouvrez Réglages Système > Confidentialité et sécurité, trouvez le message dans la section Sécurité, cliquez sur « Ouvrir quand même », saisissez votre mot de passe, puis rouvrez le fichier. Le message ne réapparaîtra plus."
+      },
+      "reinstall": {
+        "question": "Dois-je racheter une licence après avoir réinstallé macOS ou TinyTab ?",
+        "answer": "Non. Les licences sont liées à une adresse e-mail ; après réinstallation, demandez un code de vérification avec l'adresse utilisée pour l'achat et activez à nouveau."
+      },
+      "newMac": {
+        "question": "Que faire en cas de changement de Mac ou de remplacement de la carte mère ?",
+        "answer": "Activez simplement le nouveau Mac avec l'adresse e-mail utilisée pour l'achat. À la limite d'activations, la nouvelle activation remplace celle qui n'a pas été actualisée depuis le plus longtemps."
+      },
+      "network": {
+        "question": "TinyTab se connecte-t-il à Internet ?",
+        "answer": "Pas en temps normal. Il ne se connecte au centre de licences que pour activer, actualiser ou désactiver une licence. L'activation transmet l'adresse e-mail, utilisée uniquement pour identifier le titulaire de la licence et envoyer les codes de vérification et les notifications de commande. Le centre de licences conserve l'adresse e-mail, le modèle de l'appareil et la version du système et ne collecte aucune donnée d'usage. Le changement de fenêtre au quotidien n'est pas affecté."
+      },
+      "permission": {
+        "question": "Pourquoi TinyTab a-t-il besoin de l'accès à l'accessibilité ?",
+        "answer": "L'interception de Cmd + Tab et le basculement des fenêtres d'autres applications requièrent l'autorisation d'accessibilité. Elle prend effet immédiatement sans redémarrer TinyTab."
+      }
+    }
+  },
+  "privacy": {
+    "sections": {
+      "network": {
+        "title": "Réseau",
+        "body": "TinyTab ne se connecte au centre de licences que pour activer ou actualiser une licence, ou pour désactiver ce Mac. Le changement de fenêtre au quotidien reste hors ligne. Si le centre de licences est injoignable, une licence activée continue de fonctionner hors ligne ; à la fin du délai de grâce, l'application demande une confirmation en ligne."
+      },
+      "email": {
+        "title": "Adresse e-mail",
+        "body": "L'activation transmet l'adresse e-mail d'achat. Elle sert uniquement à identifier le titulaire de la licence et à envoyer les codes de vérification et les notifications de commande. L'adresse e-mail et le numéro de transaction envoyés sur la page d'achat servent uniquement à vérifier le paiement."
+      },
+      "stored": {
+        "title": "Ce que conserve le centre de licences",
+        "body": "Le centre de licences conserve l'adresse e-mail, le modèle de l'appareil et la version du système (par exemple MacBookPro18,3 · macOS 14.5) pour identifier les appareils activés. Le nom de l'ordinateur n'est jamais lu."
+      },
+      "usage": {
+        "title": "Aucune donnée d'usage",
+        "body": "TinyTab ne collecte aucune donnée d'usage. Le site n'utilise ni cookie, ni localStorage, sessionStorage ou IndexedDB ; la langue choisie manuellement n'est conservée que dans le paramètre d'URL ?lang=."
+      },
+      "analytics": {
+        "title": "Statistiques du site",
+        "body": "Le site utilise Cloudflare Web Analytics pour compter les pages vues. Il ne dépose aucun cookie et ne collecte aucune information personnelle."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Pour toute question sur la confidentialité, écrivez à {{email}}."
+      }
+    }
+  }
+}
