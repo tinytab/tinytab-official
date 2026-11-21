@@ -1,0 +1,211 @@
+{
+  "brand": {
+    "name": "TinyTab",
+    "tagline": "輕量的 macOS 窗口切換器"
+  },
+  "meta": {
+    "description": "用 Cmd + Tab 在窗口之間切換，包括全屏與其他桌面上的窗口；單鍵直達，只在激活、刷新和停用許可時聯網，不收集任何數據。"
+  },
+  "header": {
+    "home": "首頁",
+    "pages": "頁面",
+    "toLight": "切換到淺色",
+    "toDark": "切換到深色"
+  },
+  "footer": {
+    "language": "語言",
+    "promise": "不收集數據 · 只在激活、刷新和停用許可時聯網",
+    "contact": "聯繫作者"
+  },
+  "common": {
+    "copy": "複製",
+    "copied": "已複製",
+    "copyFailed": "複製失敗，請手動選擇後複製"
+  },
+  "pages": {
+    "purchase": {
+      "title": "購買",
+      "summary": "一次性買斷：掃碼付款後提交購買電郵與交易單號，審核通過後用驗證碼激活。"
+    },
+    "faq": {
+      "title": "常見問題",
+      "summary": "重裝系統、換新 Mac、網絡與隱私，以及首次打開的提示。"
+    },
+    "privacy": {
+      "title": "隱私",
+      "summary": "TinyTab 只在激活、刷新和停用許可時聯網，不收集使用數據。"
+    }
+  },
+  "home": {
+    "eyebrow": "macOS 14+ · 輕量 · 一次性買斷",
+    "headline1": "Cmd + Tab，",
+    "headline2": "直達每一個窗口。",
+    "intro": "TinyTab 以窗口為單位切換，覆蓋所有屏幕、所有桌面與全屏空間；每個窗口分配一個有語義的字母 (應用名)，按住 Cmd 敲下字母即可直達。用 Swift 原生開發，安裝包僅 1.05 MB。交互體驗猶如系統原生。",
+    "ctaDownload": "下載",
+    "ctaPurchase": "購買",
+    "previewLabel": "TinyTab 切換面板示意",
+    "featuresTitle": "只做一件事，做到順手",
+    "features": {
+      "windows": {
+        "title": "窗口級切換",
+        "body": "每個窗口一行，按最近使用排序；全屏應用和其他桌面上的窗口也能直接切過去。"
+      },
+      "hints": {
+        "title": "單鍵直達",
+        "body": "每個窗口分配一個有語義的字母 (應用名)，窗口存續期間不變；按住 Cmd 敲下字母即可切換，也支持 Dvorak 等鍵盤佈局。"
+      },
+      "light": {
+        "title": "輕量專注",
+        "body": "不做搜索、分組與預覽，菜單欄常駐，浮層不搶焦點，釋放 Cmd 即切換。"
+      },
+      "offline": {
+        "title": "平時不聯網",
+        "body": "只有激活、刷新和停用許可時連接許可中心，其他時候不聯網，也不收集任何數據。"
+      }
+    },
+    "preview": {
+      "rows": {
+        "xcode": {
+          "app": "Xcode",
+          "title": "AppDelegate.swift"
+        },
+        "safari": {
+          "app": "Safari 瀏覽器",
+          "title": "TinyTab — GitHub"
+        },
+        "terminal": {
+          "app": "終端",
+          "title": "~/Projects — zsh"
+        },
+        "notes": {
+          "app": "備忘錄",
+          "title": "發佈清單"
+        },
+        "mail": {
+          "app": "郵件",
+          "title": "收件箱"
+        }
+      },
+      "minimized": "最小化",
+      "hold": "按住"
+    }
+  },
+  "purchase": {
+    "price": "一次性購買 {{cny}} / {{usdt}}，永久使用",
+    "download": "下載 TinyTab",
+    "stepsTitle": "購買步驟",
+    "steps": {
+      "download": "下載並安裝 TinyTab（需要 macOS 14 或更高版本）。",
+      "pay": "掃描下方任一收款碼付款；用 USDT 付款時，也可以複製收款地址轉賬。",
+      "submit": "在下方填寫購買時使用的電郵（兩遍）與交易單號並提交。",
+      "received": "審核通過後會收到電郵通知。",
+      "activate": "打開 TinyTab 菜單欄圖標的“激活 TinyTab…”，輸入這個電郵，點“發送驗證碼”，用收到的六位驗證碼激活。"
+    },
+    "methodsTitle": "收款碼",
+    "methodsHint": "支付寶與微信支付的收款碼不含金額，請在付款時手動輸入 {{cny}}；USDT 請轉 {{usdt}}，並選擇與收款碼相同的網絡，轉錯網絡的資產無法找回。",
+    "methods": {
+      "alipay": "支付寶",
+      "wechat": "微信支付",
+      "usdtTrc20": "USDT (TRC20)",
+      "usdtErc20": "USDT (ERC20)"
+    },
+    "copyAddress": "複製地址",
+    "addressCopied": "已複製收款地址",
+    "zoom": "放大{{method}}收款碼",
+    "zoomHint": "點擊收款碼可單獨放大顯示，避免掃到旁邊的碼。",
+    "scan": {
+      "alipay": "打開支付寶“掃一掃”，付款 {{cny}}。",
+      "wechat": "打開微信“掃一掃”，付款 {{cny}}。",
+      "usdtTrc20": "用錢包掃碼或複製地址，在 Tron（TRC20）網絡轉 {{usdt}}。",
+      "usdtErc20": "用錢包掃碼或複製地址，在 Ethereum（ERC20）網絡轉 {{usdt}}。"
+    },
+    "close": "關閉",
+    "order": {
+      "title": "提交付款信息",
+      "description": "付款完成後填寫，審核通過後為這個電郵開通許可。",
+      "email": "電郵",
+      "emailPlaceholder": "you@example.com",
+      "emailHint": "請填寫購買後能收信的電郵，激活時要用它接收驗證碼。",
+      "confirmEmail": "再次輸入電郵",
+      "confirmEmailHint": "兩次輸入需一致。",
+      "method": "支付方式",
+      "transactionNumber": "交易單號",
+      "transactionNumberPlaceholder": "從賬單詳情中複製",
+      "transactionNumberHint": {
+        "alipay": "在支付寶“賬單”中打開這筆付款，複製“訂單號”。",
+        "wechat": "在微信“我 > 服務 > 錢包 > 賬單”中打開這筆付款，複製“交易單號”或“轉賬單號”。",
+        "usdtTrc20": "在轉出的錢包或交易所的提幣記錄中打開這筆轉賬，複製交易哈希（TxID）。",
+        "usdtErc20": "在轉出的錢包或交易所的提幣記錄中打開這筆轉賬，複製以 0x 開頭的交易哈希（TxID）。"
+      },
+      "submit": "提交",
+      "submitting": "提交中…",
+      "submitted": "已提交。審核通過後會收到電郵通知，然後在 TinyTab 的“激活 TinyTab…”窗口中用這個電郵獲取驗證碼激活。",
+      "errors": {
+        "invalidEmail": "電郵格式不正確。",
+        "emailMismatch": "兩次輸入的電郵不一致。",
+        "invalidTransactionNumber": "交易單號格式不正確：應為 6 到 66 位字母、數字、“-”或“_”。",
+        "humanVerificationFailed": "人機驗證未通過，請重新驗證後再提交。",
+        "offeringNotOnSale": "購買暫未開放，請稍後再試或聯繫作者。",
+        "paymentMethodUnavailable": "這個支付方式暫不可用，請換一種方式。",
+        "paymentAlreadyProcessed": "這筆付款已處理過。審核通過後直接在 TinyTab 裡用購買電郵激活即可。",
+        "invalidRequest": "提交未通過檢查，請核對電郵和交易單號。",
+        "originNotAllowed": "網站暫時無法提交訂單，請聯繫作者（{{email}}）。",
+        "rateLimited": "提交太頻繁，請稍後再試。",
+        "unavailable": "服務暫時不可用，請稍後再試。"
+      },
+      "turnstileFailed": "人機驗證沒有加載成功，請刷新頁面重試。仍然失敗時，可以點頁面底部的“聯繫作者”發郵件給作者。"
+    }
+  },
+  "privacy": {
+    "sections": {
+      "network": {
+        "title": "聯網",
+        "body": "TinyTab 只在激活、刷新許可和停用這臺 Mac 時連接許可中心，日常切換窗口不聯網。許可中心聯不上時，已激活的許可仍可離線使用；寬限期結束後，應用會提示聯網確認。"
+      },
+      "email": {
+        "title": "電郵",
+        "body": "激活時提交購買電郵。電郵只用於識別許可歸屬、發送驗證碼和訂單通知。在購買頁提交的電郵和交易單號只用於核對付款。"
+      },
+      "stored": {
+        "title": "許可中心保存的數據",
+        "body": "許可中心保存電郵、設備型號和系統版本（例如 MacBookPro18,3 · macOS 14.5），用於識別激活的設備，不讀取計算機名稱。"
+      },
+      "usage": {
+        "title": "不收集使用數據",
+        "body": "TinyTab 不收集使用數據。網站不使用 Cookie、localStorage、sessionStorage 或 IndexedDB；手動選擇的界面語言只寫在網址參數 ?lang= 裡。"
+      },
+      "analytics": {
+        "title": "網站統計",
+        "body": "網站使用 Cloudflare Web Analytics 統計頁面訪問，它不設置 Cookie，也不收集個人信息。"
+      },
+      "contact": {
+        "title": "聯繫",
+        "body": "關於隱私的問題，可以發郵件到 {{email}}。"
+      }
+    }
+  },
+  "faq": {
+    "items": {
+      "notOpened": {
+        "question": "下載或首次打開時提示“未打開”“Apple 無法驗證是否包含惡意軟件”？",
+        "answer": "TinyTab 沒有經過 Apple 公證，macOS 對這類下載的應用都會這樣提示，並不是檢測到了病毒。這個提示會出現兩次：雙擊 TinyTab.dmg 時，以及安裝後首次打開 TinyTab 時，處理方法相同。點“完成”關閉提示，不要點“移到廢紙簍”；打開“系統設置 > 隱私與安全性”，在“安全性”部分找到對應的提示，點“仍要打開”並輸入登錄密碼，然後再打開一次即可。之後不會再出現。"
+      },
+      "reinstall": {
+        "question": "重裝系統或重裝 TinyTab 後需要重新購買嗎？",
+        "answer": "不需要。許可按電郵歸屬，重新安裝後用購買時的電郵獲取驗證碼激活即可。"
+      },
+      "newMac": {
+        "question": "換了新 Mac 或更換主板怎麼辦？",
+        "answer": "直接用購買時的電郵在新 Mac 上激活即可；達到激活數上限時，新激活會替換最久沒有刷新的那臺。"
+      },
+      "network": {
+        "question": "TinyTab 會聯網嗎？",
+        "answer": "平時不聯網。只有激活、刷新和停用許可時連接許可中心；激活時提交電郵，電郵只用於識別許可歸屬、發送驗證碼和訂單通知。許可中心保存電郵、設備型號和系統版本，不收集使用數據。日常切換窗口不受影響。"
+      },
+      "permission": {
+        "question": "為什麼需要輔助功能權限？",
+        "answer": "攔截 Cmd + Tab 與切換其他應用的窗口都需要輔助功能權限。授權後無需重啟 TinyTab 即可生效。"
+      }
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "brand": {
+    "name": "TinyTab",
+    "tagline": "Um alternador de janelas leve para macOS"
+  },
+  "meta": {
+    "description": "Alterne entre janelas com Cmd + Tab, incluindo tela cheia e outras áreas de trabalho. Salte para qualquer janela com uma única tecla. Só se conecta para ativar, atualizar ou desativar uma licença e não coleta dados."
+  },
+  "header": {
+    "home": "Início",
+    "pages": "Páginas",
+    "toLight": "Mudar para o tema claro",
+    "toDark": "Mudar para o tema escuro"
+  },
+  "footer": {
+    "language": "Idioma",
+    "promise": "Não coleta dados · Só se conecta para ativar, atualizar ou desativar uma licença",
+    "contact": "Falar com o autor"
+  },
+  "common": {
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyFailed": "Falha ao copiar. Selecione o texto e copie manualmente."
+  },
+  "pages": {
+    "purchase": {
+      "title": "Comprar",
+      "summary": "Compra única: pague por QR code e depois envie o e-mail usado na compra e o número da transação. Após a aprovação, ative com um código de verificação."
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "summary": "Reinstalação, Mac novo, rede e privacidade, e aviso na primeira inicialização."
+    },
+    "privacy": {
+      "title": "Privacidade",
+      "summary": "O TinyTab só se conecta para ativar, atualizar ou desativar uma licença e não coleta dados de uso."
+    }
+  },
+  "home": {
+    "eyebrow": "macOS 14+ · Leve · Compra única",
+    "headline1": "Cmd + Tab,",
+    "headline2": "direto a cada janela.",
+    "intro": "O TinyTab alterna janela por janela, em todos os monitores, áreas de trabalho e espaços em tela cheia. Cada janela recebe uma letra derivada do nome do app: mantenha Cmd pressionado e aperte a tecla correspondente para ir direto a ela. Desenvolvido nativamente em Swift, o instalador ocupa apenas 1,05 MB. A experiência de uso parece fazer parte do sistema.",
+    "ctaDownload": "Baixar",
+    "ctaPurchase": "Comprar",
+    "previewLabel": "Ilustração do seletor do TinyTab",
+    "featuresTitle": "Fazer uma coisa só, e bem feita",
+    "features": {
+      "windows": {
+        "title": "Alternância por janela",
+        "body": "Uma linha por janela, ordenadas pelo uso recente. Apps em tela cheia e janelas em outras áreas de trabalho ficam a um toque de distância."
+      },
+      "hints": {
+        "title": "Salto com uma tecla",
+        "body": "Cada janela mantém sua letra derivada do nome do app enquanto estiver aberta. Mantenha Cmd pressionado e aperte a tecla para alternar; funciona também com Dvorak e outros layouts de teclado."
+      },
+      "light": {
+        "title": "Leve e enxuto",
+        "body": "Sem busca, agrupamentos ou pré-visualizações. Fica na barra de menus, nunca rouba o foco e alterna assim que você solta Cmd."
+      },
+      "offline": {
+        "title": "Offline por padrão",
+        "body": "Só se conecta ao centro de licenças para ativar, atualizar ou desativar uma licença. No restante do tempo, permanece offline e não coleta dados."
+      }
+    },
+    "preview": {
+      "rows": {
+        "xcode": {
+          "app": "Xcode",
+          "title": "AppDelegate.swift"
+        },
+        "safari": {
+          "app": "Safari",
+          "title": "TinyTab — GitHub"
+        },
+        "terminal": {
+          "app": "Terminal",
+          "title": "~/Projects — zsh"
+        },
+        "notes": {
+          "app": "Notas",
+          "title": "Lista de lançamento"
+        },
+        "mail": {
+          "app": "Mail",
+          "title": "Caixa de entrada"
+        }
+      },
+      "minimized": "Minimizada",
+      "hold": "Mantenha"
+    }
+  },
+  "purchase": {
+    "price": "Compra única, {{usdt}} / {{cny}}, para sempre",
+    "download": "Baixar o TinyTab",
+    "stepsTitle": "Como comprar",
+    "steps": {
+      "download": "Baixe e instale o TinyTab (macOS 14 ou superior).",
+      "pay": "Escaneie um dos QR codes de pagamento abaixo. Para USDT, você também pode copiar o endereço e enviar por ele.",
+      "submit": "Preencha abaixo o e-mail usado na compra (duas vezes) e o número da transação, e envie.",
+      "activate": "Abra «Activate TinyTab…» no ícone do TinyTab na barra de menus, informe este e-mail, clique em «Send Code» e ative com o código de seis dígitos recebido.",
+      "received": "Quando o pedido for aprovado, você receberá um e-mail de notificação."
+    },
+    "methodsTitle": "QR codes de pagamento",
+    "methodsHint": "Os QR codes do Alipay e do WeChat Pay não incluem o valor. Digite-o manualmente ao pagar: {{cny}}. Para USDT, envie {{usdt}} na mesma rede do código; valores enviados em outra rede não podem ser recuperados.",
+    "methods": {
+      "alipay": "Alipay",
+      "wechat": "WeChat Pay",
+      "usdtTrc20": "USDT (TRC20)",
+      "usdtErc20": "USDT (ERC20)"
+    },
+    "copyAddress": "Copiar endereço",
+    "addressCopied": "Endereço copiado",
+    "zoom": "Ampliar o QR code {{method}}",
+    "zoomHint": "Clique em um QR code para vê-lo sozinho e maior, para que o telefone não leia o do lado.",
+    "scan": {
+      "alipay": "Abra «扫一扫» (Escanear) no Alipay e pague {{cny}}.",
+      "wechat": "Abra «扫一扫» (Escanear) no WeChat e pague {{cny}}.",
+      "usdtTrc20": "Escaneie com sua carteira ou copie o endereço, e envie {{usdt}} na rede Tron (TRC20).",
+      "usdtErc20": "Escaneie com sua carteira ou copie o endereço, e envie {{usdt}} na rede Ethereum (ERC20)."
+    },
+    "close": "Fechar",
+    "order": {
+      "title": "Enviar dados do pagamento",
+      "description": "Preencha depois de pagar. Após a aprovação, uma licença é aberta para este e-mail.",
+      "email": "E-mail",
+      "emailPlaceholder": "you@example.com",
+      "emailHint": "Use um endereço que consiga receber e-mails: o código de ativação será enviado para ele.",
+      "confirmEmail": "Digite o e-mail novamente",
+      "confirmEmailHint": "As duas entradas devem coincidir.",
+      "method": "Forma de pagamento",
+      "transactionNumber": "Número da transação",
+      "transactionNumberPlaceholder": "Copie dos detalhes do pagamento",
+      "transactionNumberHint": {
+        "alipay": "No Alipay, abra o pagamento em «账单» (Faturas) e copie o «订单号» (número do pedido).",
+        "wechat": "No WeChat, abra o pagamento em «我 > 服务 > 钱包 > 账单» e copie o «交易单号» ou o «转账单号».",
+        "usdtTrc20": "Na carteira ou corretora usada para pagar, abra esta transferência no histórico de saques e copie o hash da transação (TxID).",
+        "usdtErc20": "Na carteira ou corretora usada para pagar, abra esta transferência no histórico de saques e copie o hash da transação (TxID), que começa com 0x."
+      },
+      "submit": "Enviar",
+      "submitting": "Enviando…",
+      "submitted": "Enviado. Quando o pedido for aprovado, você receberá um e-mail de notificação. Depois, informe este e-mail na janela «Activate TinyTab…» do TinyTab para receber um código e ativar.",
+      "errors": {
+        "invalidEmail": "Endereço de e-mail inválido.",
+        "emailMismatch": "Os dois endereços de e-mail não coincidem.",
+        "invalidTransactionNumber": "Número da transação inválido: deve ter de 6 a 66 caracteres (letras, números, «-» ou «_»).",
+        "humanVerificationFailed": "A verificação de segurança não foi concluída. Complete-a novamente e envie de novo.",
+        "offeringNotOnSale": "As compras não estão disponíveis no momento. Tente mais tarde ou fale com o autor.",
+        "paymentMethodUnavailable": "Esta forma de pagamento não está disponível. Escolha outra.",
+        "paymentAlreadyProcessed": "Este pagamento já foi processado. Após a aprovação, ative no TinyTab com o e-mail da compra.",
+        "invalidRequest": "O envio não passou nas verificações. Confira o e-mail e o número da transação.",
+        "unavailable": "O serviço está temporariamente indisponível. Tente novamente mais tarde.",
+        "originNotAllowed": "O site não consegue enviar pedidos no momento. Fale com o autor ({{email}}).",
+        "rateLimited": "Envios demais. Tente novamente mais tarde."
+      },
+      "turnstileFailed": "Não foi possível carregar a verificação de segurança. Recarregue a página e tente de novo. Se o problema persistir, use «Falar com o autor» no rodapé da página para enviar um e-mail ao autor."
+    }
+  },
+  "faq": {
+    "items": {
+      "notOpened": {
+        "question": "O macOS diz que o arquivo não foi aberto e que a Apple não pôde verificar se há software malicioso ao abrir o download ou o TinyTab?",
+        "answer": "O TinyTab não é notarizado pela Apple, e o macOS mostra esse aviso em todos os downloads desse tipo; ele não indica que foi encontrado software malicioso. Ele aparece duas vezes: ao dar duplo clique em TinyTab.dmg e na primeira abertura do TinyTab; o procedimento é o mesmo. Clique em «OK», não em «Mover para o Lixo». Abra Ajustes do Sistema > Privacidade e Segurança, encontre o aviso na seção Segurança, clique em «Abrir Mesmo Assim», digite sua senha e abra o arquivo de novo. O aviso não aparecerá mais."
+      },
+      "reinstall": {
+        "question": "Preciso comprar de novo depois de reinstalar o macOS ou o TinyTab?",
+        "answer": "Não. As licenças pertencem a um endereço de e-mail; após a reinstalação, solicite um código de verificação com o e-mail usado na compra e ative de novo."
+      },
+      "newMac": {
+        "question": "O que fazer ao trocar de Mac ou substituir a placa-mãe?",
+        "answer": "Ative o novo Mac com o e-mail usado na compra. Ao atingir o limite de ativações, a nova ativação substitui a que está há mais tempo sem ser atualizada."
+      },
+      "network": {
+        "question": "O TinyTab se conecta à Internet?",
+        "answer": "Normalmente não. Só se conecta ao centro de licenças para ativar, atualizar ou desativar uma licença. A ativação envia o e-mail, usado apenas para identificar o titular da licença e enviar códigos de verificação e notificações de pedidos. O centro de licenças armazena o e-mail, o modelo do dispositivo e a versão do sistema, e não coleta dados de uso. A alternância de janelas do dia a dia não é afetada."
+      },
+      "permission": {
+        "question": "Por que o TinyTab precisa da permissão de acessibilidade?",
+        "answer": "Interceptar Cmd + Tab e alternar para janelas de outros apps exige a permissão de acessibilidade. Ela entra em vigor imediatamente, sem reiniciar o TinyTab."
+      }
+    }
+  },
+  "privacy": {
+    "sections": {
+      "network": {
+        "title": "Rede",
+        "body": "O TinyTab só se conecta ao centro de licenças para ativar ou atualizar uma licença, ou para desativar este Mac. A alternância de janelas do dia a dia permanece offline. Se o centro de licenças estiver inacessível, uma licença ativada continua funcionando offline; ao fim do período de carência, o app pede uma confirmação online."
+      },
+      "email": {
+        "title": "E-mail",
+        "body": "A ativação envia o e-mail da compra. Ele é usado apenas para identificar o titular da licença e enviar códigos de verificação e notificações de pedidos. O e-mail e o número da transação enviados na página de compra servem apenas para conferir o pagamento."
+      },
+      "stored": {
+        "title": "O que o centro de licenças armazena",
+        "body": "O centro de licenças armazena o e-mail, o modelo do dispositivo e a versão do sistema (por exemplo, MacBookPro18,3 · macOS 14.5) para identificar os dispositivos ativados. Nunca lê o nome do computador."
+      },
+      "usage": {
+        "title": "Nenhum dado de uso",
+        "body": "O TinyTab não coleta dados de uso. O site não usa cookies, localStorage, sessionStorage nem IndexedDB; o idioma escolhido manualmente fica apenas no parâmetro de URL ?lang=."
+      },
+      "analytics": {
+        "title": "Estatísticas do site",
+        "body": "O site usa o Cloudflare Web Analytics para contar visualizações. Ele não define cookies nem coleta informações pessoais."
+      },
+      "contact": {
+        "title": "Contato",
+        "body": "Para dúvidas sobre privacidade, escreva para {{email}}."
+      }
+    }
+  }
+}
