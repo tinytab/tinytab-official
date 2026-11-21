@@ -7,7 +7,7 @@ import { Page } from '@/components/page';
 import { PaymentQr } from '@/components/payment-qr';
 import { Turnstile } from '@/components/turnstile';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardAction, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import {
   Dialog,
   DialogClose,
@@ -26,6 +26,7 @@ const STEPS = ['download', 'pay', 'submit', 'received', 'activate'] as const;
 
 export default function PurchasePage() {
   const { t } = useTranslation();
+  const [orderOpen, setOrderOpen] = useState(false);
 
   return (
     <Page icon={ShoppingBagIcon} title={t('pages.purchase.title')} description={t('pages.purchase.summary')}>
@@ -64,9 +65,9 @@ export default function PurchasePage() {
         </CardContent>
       </Card>
 
-      <PaymentMethods />
+      <PaymentMethods onSubmitOrder={() => setOrderOpen(true)} />
 
-      <OrderCard />
+      <OrderDialog open={orderOpen} onOpenChange={setOrderOpen} />
     </Page>
   );
 }
@@ -74,7 +75,7 @@ export default function PurchasePage() {
 type PaymentOption = (typeof PAYMENT_METHODS)[number];
 
 /** Small codes side by side; a click opens one alone and larger, so a phone cannot pick up its neighbour. */
-function PaymentMethods() {
+function PaymentMethods({ onSubmitOrder }: { onSubmitOrder: () => void }) {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   // Kept after closing, so the dialog still shows the code while it fades out.
@@ -84,6 +85,12 @@ function PaymentMethods() {
     <Card>
       <CardHeader>
         <CardTitle>{t('purchase.methodsTitle')}</CardTitle>
+        <CardAction>
+          <Button type="button" size="sm" aria-haspopup="dialog" onClick={onSubmitOrder}>
+            <SendIcon data-icon="inline-start" />
+            {t('purchase.order.open')}
+          </Button>
+        </CardAction>
         <CardDescription>{t('purchase.methodsHint', PRICE)}</CardDescription>
       </CardHeader>
       <CardContent className="grid gap-4">
@@ -155,7 +162,7 @@ function PaymentAddress({ address }: { address: string }) {
 
 type FormResult = SubmitResult | { status: 'invalidEmail' | 'emailMismatch' | 'invalidTransactionNumber' };
 
-function OrderCard() {
+function OrderDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (open: boolean) => void }) {
   const { t } = useTranslation();
   const [email, setEmail] = useState('');
   const [confirmEmail, setConfirmEmail] = useState('');
@@ -205,13 +212,21 @@ function OrderCard() {
     }
   }
 
+  function handleOpenChange(nextOpen: boolean) {
+    if (!nextOpen) {
+      // The widget unmounts with the dialog; a token it issued is no longer valid on reopen.
+      setTurnstileToken(null);
+    }
+    onOpenChange(nextOpen);
+  }
+
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>{t('purchase.order.title')}</CardTitle>
-        <CardDescription>{t('purchase.order.description')}</CardDescription>
-      </CardHeader>
-      <CardContent>
+    <Dialog open={open} onOpenChange={handleOpenChange}>
+      <DialogContent className="max-h-[calc(100dvh-2rem)] overflow-y-auto sm:max-w-md">
+        <DialogHeader className="pr-8">
+          <DialogTitle>{t('purchase.order.title')}</DialogTitle>
+          <DialogDescription>{t('purchase.order.description')}</DialogDescription>
+        </DialogHeader>
         {result?.status === 'submitted' ? (
           <p className="flex gap-2.5 rounded-lg bg-brand/10 p-3 text-sm" role="status">
             <CircleCheckIcon className="mt-0.5 size-4 shrink-0 text-brand" />
@@ -305,8 +320,8 @@ function OrderCard() {
             </div>
           </form>
         )}
-      </CardContent>
-    </Card>
+      </DialogContent>
+    </Dialog>
   );
 }
 

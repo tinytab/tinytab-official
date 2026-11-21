@@ -97,7 +97,7 @@
     "steps": {
       "download": "Baixe e instale o TinyTab (macOS 14 ou superior).",
       "pay": "Escaneie um dos QR codes de pagamento abaixo. Para USDT, você também pode copiar o endereço e enviar por ele.",
-      "submit": "Preencha abaixo o e-mail usado na compra (duas vezes) e o número da transação, e envie.",
+      "submit": "Selecione «Enviar pedido», preencha o e-mail usado na compra (duas vezes) e o número da transação, e envie.",
       "activate": "Abra «Activate TinyTab…» no ícone do TinyTab na barra de menus, informe este e-mail, clique em «Send Code» e ative com o código de seis dígitos recebido.",
       "received": "Quando o pedido for aprovado, você receberá um e-mail de notificação."
     },
@@ -123,6 +123,7 @@
     "order": {
       "title": "Enviar dados do pagamento",
       "description": "Preencha depois de pagar. Após a aprovação, uma licença é aberta para este e-mail.",
+      "open": "Enviar pedido",
       "email": "E-mail",
       "emailPlaceholder": "you@example.com",
       "emailHint": "Use um endereço que consiga receber e-mails: o código de ativação será enviado para ele.",
