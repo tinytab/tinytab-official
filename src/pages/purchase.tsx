@@ -221,8 +221,8 @@ function OrderDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (ope
   }
 
   return (
-    <Dialog open={open} onOpenChange={handleOpenChange}>
-      <DialogContent className="max-h-[calc(100dvh-2rem)] overflow-y-auto sm:max-w-md">
+    <Dialog open={open} onOpenChange={handleOpenChange} disablePointerDismissal>
+      <DialogContent className="max-h-[calc(100dvh-2rem)] overflow-y-auto sm:max-w-xl">
         <DialogHeader className="pr-8">
           <DialogTitle>{t('purchase.order.title')}</DialogTitle>
           <DialogDescription>{t('purchase.order.description')}</DialogDescription>
